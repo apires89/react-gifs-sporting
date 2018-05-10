@@ -23,12 +23,20 @@
     "webpack-dev-server": "^2.8.1"
   },
   "dependencies": {
+    "giphy": "^0.0.4",
+    "giphy-api": "^1.2.7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
   "scripts": {
-    "start":  "webpack-dev-server",
-    "lint":   "eslint './src/**/*.js' './src/**/*.jsx'",
+    "start": "webpack-dev-server",
+    "lint": "eslint './src/**/*.js' './src/**/*.jsx'",
     "deploy": "webpack -p && gh-pages -d dist"
-  }
+  },
+  "name": "react-gifs",
+  "version": "1.0.0",
+  "description": "cool",
+  "main": "index.js",
+  "repository": "git@github.com:apires89/react-gifs-sporting.git",
+  "author": "Andre Pires <andrecabralpires@gmail.com>"
 }
